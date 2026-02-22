@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- =============================================
+       ExamSathi – Government Exam Preparation App
+       Static Landing Page for GitHub Pages
+       ============================================= -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ExamSathi is a mobile app for students preparing for Indian government exams such as SSC, Banking, Railway, UPSC, and State level exams." />
+  <meta name="keywords" content="ExamSathi, Government Exam, SSC, Banking, Railway, UPSC, Study Notes, Test Series" />
+  <meta name="author" content="ExamSathi" />
+  <title>ExamSathi – Government Exam Preparation App</title>
+
+  <!-- Google Font: Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========================================
+       NAVIGATION BAR
+       ======================================== -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#" class="navbar__brand">
+        <div class="brand-icon">ES</div>
+        ExamSathi
+      </a>
+
+      <!-- Mobile hamburger toggle -->
+      <button class="navbar__toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="navbar__links" id="navLinks">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#screenshots">Screenshots</a></li>
+        <li><a href="#payment">Payment</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#privacy">Privacy</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ========================================
+       HERO SECTION
+       ======================================== -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero__content reveal">
+        <div class="hero__badge">
+          <span>📱</span> Mobile Learning App
+        </div>
+        <h1 class="hero__title">
+          Exam<span class="highlight">Sathi</span>
+        </h1>
+        <p class="hero__tagline">Prepare Smart. Crack Government Exams.</p>
+        <p class="hero__desc">
+          ExamSathi is a mobile app for students preparing for Indian government
+          exams such as SSC, Banking, Railway, UPSC, and State level exams.
+        </p>
+        <div class="hero__actions">
+          <button class="btn btn--primary" onclick="alert('App coming soon! Stay tuned.')">
+            📥 Download App (Coming Soon)
+          </button>
+          <a href="#features" class="btn btn--outline">Explore Features</a>
+        </div>
+      </div>
+
+      <!-- Phone mockup illustration -->
+      <div class="hero__visual reveal">
+        <div class="phone-mockup">
+          <div class="phone-mockup__screen">
+            <div class="mock-icon">📚</div>
+            <div class="mock-title">ExamSathi</div>
+            <div class="mock-sub">Your Exam Buddy</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================
+       FEATURES SECTION
+       ======================================== -->
+  <section class="features" id="features">
+    <div class="container">
+      <h2 class="section-title reveal">What We Offer</h2>
+      <p class="section-subtitle reveal">
+        Everything you need to crack government exams, right in one app.
+      </p>
+
+      <div class="features__grid">
+        <!-- Feature 1 -->
+        <div class="feature-card reveal">
+          <div class="feature-card__icon">📖</div>
+          <h3 class="feature-card__title">Free & Paid Study Notes</h3>
+          <p class="feature-card__text">
+            Access high-quality study notes covering all major government exam topics.
+          </p>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="feature-card reveal">
+          <div class="feature-card__icon">🎬</div>
+          <h3 class="feature-card__title">Video Lectures</h3>
+          <p class="feature-card__text">
+            Learn from expert educators through structured video lessons.
+          </p>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="feature-card reveal">
+          <div class="feature-card__icon">📝</div>
+          <h3 class="feature-card__title">Online Test Series</h3>
+          <p class="feature-card__text">
+            Practice with timed mock tests designed for real exam patterns.
+          </p>
+        </div>
+
+        <!-- Feature 4 -->
+        <div class="feature-card reveal">
+          <div class="feature-card__icon">📊</div>
+          <h3 class="feature-card__title">Progress Tracking</h3>
+          <p class="feature-card__text">
+            Monitor your performance and identify areas of improvement.
+          </p>
+        </div>
+
+        <!-- Feature 5 -->
+        <div class="feature-card reveal">
+          <div class="feature-card__icon">🔒</div>
+          <h3 class="feature-card__title">Secure Login using Firebase</h3>
+          <p class="feature-card__text">
+            Your data is safe with Firebase-powered secure authentication.
+          </p>
+        </div>
+
+        <!-- Feature 6 -->
+        <div class="feature-card reveal">
+          <div class="feature-card__icon">💎</div>
+          <h3 class="feature-card__title">Premium Notes starting at ₹49</h3>
+          <p class="feature-card__text">
+            Unlock premium content at affordable prices for exam success.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================
+       SCREENSHOTS SECTION
+       ======================================== -->
+  <section class="screenshots" id="screenshots">
+    <div class="container">
+      <h2 class="section-title reveal">App Screenshots</h2>
+      <p class="section-subtitle reveal">
+        Take a look at how ExamSathi is designed for the best learning experience.
+      </p>
+
+      <div class="screenshots__grid">
+        <!-- Screenshot 1 -->
+        <div class="screenshot-card reveal">
+          <div class="screenshot-card__image">📱</div>
+          <div class="screenshot-card__label">Home Screen</div>
+        </div>
+
+        <!-- Screenshot 2 -->
+        <div class="screenshot-card reveal">
+          <div class="screenshot-card__image">📒</div>
+          <div class="screenshot-card__label">Notes Screen</div>
+        </div>
+
+        <!-- Screenshot 3 -->
+        <div class="screenshot-card reveal">
+          <div class="screenshot-card__image">✍️</div>
+          <div class="screenshot-card__label">Test Series Screen</div>
+        </div>
+
+        <!-- Screenshot 4 -->
+        <div class="screenshot-card reveal">
+          <div class="screenshot-card__image">👤</div>
+          <div class="screenshot-card__label">Profile Screen</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================
+       PAYMENT INFORMATION SECTION
+       ======================================== -->
+  <section class="payment" id="payment">
+    <div class="container">
+      <h2 class="section-title reveal">Payment Information</h2>
+      <p class="section-subtitle reveal">Transparent and fair pricing</p>
+
+      <div class="payment__box reveal">
+        <div class="payment-icon">💳</div>
+        <p>
+          Payments are collected only for premium educational content such as
+          study notes and test series. This app is strictly for educational
+          purposes.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================
+       ABOUT SECTION
+       ======================================== -->
+  <section class="about" id="about">
+    <div class="container">
+      <h2 class="section-title reveal">About ExamSathi</h2>
+      <p class="section-subtitle reveal">Our mission is your success</p>
+
+      <div class="about__content reveal">
+        <p>
+          ExamSathi helps students prepare efficiently for government exams
+          with structured content and smart learning tools. Our platform
+          provides curated study material, expert video lectures, and
+          comprehensive test series to ensure every student is exam-ready.
+        </p>
+
+        <!-- Quick stats -->
+        <div class="about__stats">
+          <div class="stat-item">
+            <div class="stat-item__number">10K+</div>
+            <div class="stat-item__label">Students</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-item__number">500+</div>
+            <div class="stat-item__label">Study Notes</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-item__number">100+</div>
+            <div class="stat-item__label">Mock Tests</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-item__number">50+</div>
+            <div class="stat-item__label">Video Lectures</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================
+       CONTACT SECTION
+       ======================================== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <!-- Left: Contact Info -->
+      <div class="contact__info reveal">
+        <h2 class="section-title" style="text-align:left;">Get In Touch</h2>
+        <p>
+          Have questions or feedback? We'd love to hear from you. Reach out
+          using the form or contact us directly.
+        </p>
+
+        <div class="contact__detail">
+          <div class="detail-icon">✉️</div>
+          <span>support@examsathi.com</span>
+        </div>
+        <div class="contact__detail">
+          <div class="detail-icon">🌐</div>
+          <span>www.examsathi.com</span>
+        </div>
+        <div class="contact__detail">
+          <div class="detail-icon">📍</div>
+          <span>India</span>
+        </div>
+      </div>
+
+      <!-- Right: Contact Form (no backend) -->
+      <form class="contact__form reveal" onsubmit="handleContactForm(event)">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" placeholder="Enter your name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" placeholder="Enter your email" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" placeholder="Write your message..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn--primary" style="width:100%;justify-content:center;">
+          Send Message
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ========================================
+       PRIVACY POLICY SECTION
+       ======================================== -->
+  <section class="privacy" id="privacy">
+    <div class="container">
+      <h2 class="section-title reveal">Privacy Policy</h2>
+      <p class="section-subtitle reveal">Your privacy matters to us</p>
+
+      <div class="privacy__box reveal">
+        <p>
+          We respect user privacy. We do not sell or share user data. Data is
+          used only for authentication and learning progress. By using
+          ExamSathi, you agree to our privacy practices. For detailed
+          information, contact us at support@examsathi.com.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================
+       FOOTER
+       ======================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__brand">ExamSathi</div>
+      <ul class="footer__links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#screenshots">Screenshots</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#privacy">Privacy</a></li>
+      </ul>
+      <p class="footer__copy">&copy; 2026 ExamSathi. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- ========================================
+       JAVASCRIPT – Interactivity
+       ======================================== -->
+  <script>
+    /* ------ Mobile Nav Toggle ------ */
+    const navToggle = document.getElementById('navToggle');
+    const navLinks  = document.getElementById('navLinks');
+
+    navToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+    });
+
+    // Close mobile menu when a link is clicked
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('open');
+      });
+    });
+
+    /* ------ Navbar shadow on scroll ------ */
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 10);
+    });
+
+    /* ------ Scroll reveal animation ------ */
+    const revealElements = document.querySelectorAll('.reveal');
+
+    const revealOnScroll = () => {
+      const windowHeight = window.innerHeight;
+      revealElements.forEach(el => {
+        const top = el.getBoundingClientRect().top;
+        if (top < windowHeight - 80) {
+          el.classList.add('visible');
+        }
+      });
+    };
+
+    window.addEventListener('scroll', revealOnScroll);
+    window.addEventListener('DOMContentLoaded', revealOnScroll);
+
+    /* ------ Contact form handler (demo) ------ */
+    function handleContactForm(e) {
+      e.preventDefault();
+      const name    = document.getElementById('name').value;
+      const email   = document.getElementById('email').value;
+      const message = document.getElementById('message').value;
+
+      alert(`Thank you, ${name}! Your message has been received.\n\n(This is a demo – no data was sent.)`);
+
+      // Reset form
+      e.target.reset();
+    }
+  </script>
+
+</body>
+</html>
